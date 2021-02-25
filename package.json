@@ -1,0 +1,28 @@
+{
+  "name": "studion",
+  "version": "1.0.0",
+  "description": "\u001b[D\u001b[A\u001b[C\u001b[C\u001b[Bvideo aula",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsukita/legendary-engine.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS\u001b[D\u001b[D\u001b[D",
+    "\u001b[C\u001b[CCSS",
+    "JavaScript"
+  ],
+  "author": "Everton Mattos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsukita/legendary-engine/issues"
+  },
+  "homepage": "https://github.com/devsukita/legendary-engine#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
