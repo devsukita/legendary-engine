@@ -4,9 +4,10 @@
 }
 
 :root {
-    --color-primary:#1E90FF;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    --color-primary:#1E90FF;
+    --default-padding:1rem;
 }
 body{
     margin: 0;
@@ -19,7 +20,7 @@ ul{
 }
 
 .navbar{
-    position: absolute;
+    position: fixed;
     display: grid;
     grid-template-columns: 1fr 9fr;
    background: #000;
@@ -30,6 +31,7 @@ ul{
     padding:0 1rem;
     align-items: center;
     color: #fff;
+    z-index: 1;
 }
 .navbar__link{
     justify-self: end;
@@ -63,7 +65,54 @@ line-height: 1.4ch;
     color: var(--color-primary);
 }
 #slider{
-height: calc(100vh - 7.75rem);
 background-color: #000;
 color: #fff;
+}
+.slide{
+position: relative;
+height: calc(100vh - 7.75rem);
+}
+.slide__background-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.slide_content{
+position: absolute;
+top: 1.25rem;
+left: 50vw;
+}
+.slide_content h6{
+font-size: 0.9375rem;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: .1875rem;
+}
+.slide_content h2{
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    line-height: 6.25rem;
+}
+.slide_content h2 span{
+    display: block;
+}
+.btn{
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    border:0.125rem solid #fff;
+    border-radius: 1.625rem;
+    color:var(--color-primary);
+    background: unset;
+    font-size: .9357rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s all ease;
+}
+.btn:hover,
+.btn:focus,
+.btn:active{
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
 }

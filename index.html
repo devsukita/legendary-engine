@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studion</title>
 </head>
 <body>
-    <nav>
-    <h1>Studi<span>on</span><span>Eventos</span></h1>
-        <ul>
+    <nav class="navbar">
+    <h1 class="logo-studion">
+        Studi<span class="copy--primary">on
+        </span><span class="logo-studion_subtitle">Eventos</span>
+    </h1>
+        <!-- <img src="/src/images/banner.jpg" alt=""> -->
+        <ul class="navbar__link">
            <li><a href="#empresa">Empresa</a></li>
             <li><a href="#eventos">Eventos</a></li>
             <li><a href="#galeria">Galeria</a></li>
@@ -19,10 +24,13 @@
     </nav>
    <header>
        <div id="slider">
-           <div class="slider">
-               <h6><span> Próximo evento</span> - Dia 25 de Novembro às 18h </h6>
-                <h2><span>Creative</span> Minds</h2>
-                <button href="#">Saiba Mais</button>
+           <div class="slide">
+                <img  class="slide__background-image"src="./src/images/banner.jpg" alt="StudionEventos">
+                <div class="slide_content">
+                    <h6><span class="copy--primary"> Próximo evento</span> - Dia 25 de Novembro às 18h </h6>
+                    <h2><span class="copy--primary">Creative</span> Minds</h2>
+                    <button class="btn btn--slide" href="#">Saiba Mais</button>
+                </div>
             </div>
        </div>
    </header>
