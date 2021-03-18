@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght:@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap');
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-:root {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    --color-primary:#1E90FF;
-    --default-padding:1rem;
+:root{
+    font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  --color-copy: #333;
+  --color-primary: #1100ff;
+  --default-padding: 1rem;
+  color: var(--color-copy);
 }
 body{
     margin: 0;
@@ -17,6 +21,10 @@ ul{
     display: flex;
     list-style: none;
     padding-left: 0;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .navbar{
@@ -113,6 +121,186 @@ letter-spacing: .1875rem;
 .btn:focus,
 .btn:active{
     background: var(--color-primary);
-    border-color: var(--color-primary);
     color: #fff;
+}
+#numbers{
+    background: var(--color-primary);
+    color: #fff;
+    text-transform: uppercase;
+}
+.numbers_container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+place-items: center;
+margin: 0;
+padding: 3.275rem 1rem;
+}
+.numbers_container h3{
+    font-size: 2.1875rem;
+    
+}
+.numbers_container h3 small{
+    font-size: 1.25rem;
+    display: block;
+}
+.institutional{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.125rem;
+  align-items: center;
+  padding: 4.375rem 2.4rem;
+  
+}
+.institutional__copy{
+    padding: 0 1rem;
+}
+.institutional__copy h6{
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.institutional__copy h4{
+font-size: 1.5625rem;
+}
+.institutional__image{
+    max-width: 450px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px #000000;
+}
+.institutional p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6875rem;
+  margin-bottom: 2.5rem;
+}
+.btn--institutional:hover{
+  color: var(--color-copy);
+  background: unset;
+  box-shadow: 0 1rem 1rem #0006;
+}
+.quote{
+    background-image: url(/src/images/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.quote__container{
+display: grid;
+align-items: center;
+justify-content: end;
+min-height: 80vh;
+}
+.quote_class{
+    background-color: #fff;
+    padding: 5.75rem 4.657rem;
+
+}
+.quote_class h6{
+    font-size: 0.9375rem;
+    font-weight:400;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    max-width: 55ch;
+    text-transform: uppercase;
+    margin:0
+}
+.quote_class h2{
+    font-size: 3.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -.1875rem;
+    margin-top: 1.875rem;   
+    
+}
+.quote_class h2 span{
+    display: block;
+}
+
+.btn--quote{
+    color:#333;
+    border-color: #333;
+    background: unset;
+}
+.footer{
+    padding: 0 1rem;
+    background:#000;	
+    padding: .5em;
+    text-align: center;
+    color: white;
+}
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+}
+.footer .logo-studion{
+    justify-self: start;
+    margin: 0;
+}
+.footer__form {
+    display: grid;
+    grid-template-columns: 9ch auto;
+    gap: 1.375rem;
+    align-items: center;
+}
+.footer__form__email {
+  display: grid;
+  grid-template-columns: auto 3.375rem;
+}
+.footer__form label{
+    font-size: .275;
+    font-weight: 300;
+    text-align: center;
+}
+.footer__form input{
+    background: var(--color-primary);
+    outline: none;
+    padding: 1rem;
+    border: unset;
+    font-size: .875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+}
+.footer__form input::placeholder{
+    color:#fff;
+}
+.footer__form input:focus{
+    background: white;
+    color: #000;
+    text-transform: none;
+}
+.footer__form button{
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.footer__form button:hover {
+  background-color: #000;
+  color: #FFF;
+}
+.footer__links{
+    justify-self: end;
+}
+.footer__links li{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid var(--color-primary);
+    margin: 40px 5px 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer__links li:hover{
+    background:var(--color-primary);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.copy--right{
+    text-transform: uppercase;
 }
