@@ -1,0 +1,155 @@
+.logo-studion {
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.4ch;
+  font-size: 2.375rem;
+  text-align: right;
+}
+.logo-studion_subtitle {
+  font-weight: 300;
+  float: right;
+  font-size: 0.625rem;
+  line-height: 1.4ch;
+}
+.logo-studion a {
+  text-decoration: none;
+  color: white;
+}
+.copy--primary {
+  color: var(--color-primary);
+}
+#slider {
+  background-color: #000;
+  color: #fff;
+}
+.slide {
+  position: relative;
+  height: calc(100vh - 7.75rem);
+}
+.slide__background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.slide_content {
+  position: absolute;
+  top: 1.25rem;
+  left: 50vw;
+}
+.slide_content h6 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+}
+.slide_content h2 {
+  font-size: 6.25rem;
+  text-transform: uppercase;
+  line-height: 6.25rem;
+}
+.slide_content h2 span {
+  display: block;
+}
+.slide_content button {
+  margin-top: 65px;
+}
+
+#numbers {
+  background: var(--color-primary);
+  color: #fff;
+  text-transform: uppercase;
+}
+.numbers_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  margin: 0;
+  padding: 3.275rem 1rem;
+}
+.numbers_container h3 {
+  font-size: 2.1875rem;
+}
+.numbers_container h3 small {
+  font-size: 1.25rem;
+  display: block;
+}
+.institutional {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3.125rem;
+  align-items: center;
+  padding: 4.375rem 2.4rem;
+}
+.institutional__copy {
+  padding: 0 1rem;
+}
+.institutional__copy h6 {
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.institutional__copy h4 {
+  font-size: 1.5625rem;
+}
+.institutional__image {
+  max-width: 450px;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px #000000;
+}
+.institutional p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6875rem;
+  margin-bottom: 2.5rem;
+}
+.btn--institutional:hover {
+  color: var(--color-copy);
+  background: unset;
+  box-shadow: 0 1rem 1rem #0006;
+}
+.quote {
+  background-image: url(/src/images/parallax.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-content: end;
+  min-height: 80vh;
+}
+.quote_class {
+  background-color: #fff;
+  padding: 5.75rem 4.657rem;
+}
+.quote_class h6 {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  letter-spacing: 0.1875rem;
+  line-height: 1.4375rem;
+  max-width: 55ch;
+  text-transform: uppercase;
+  margin: 0;
+}
+.quote_class h2 {
+  font-size: 3.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -0.1875rem;
+  margin-top: 1.875rem;
+}
+.quote_class h2 span {
+  display: block;
+}
+
+.btn--quote {
+  color: #333;
+  border-color: #333;
+  background: unset;
+}

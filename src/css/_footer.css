@@ -1,0 +1,79 @@
+.footer {
+  padding: 0 1rem;
+  background: #000;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+}
+.footer .logo-studion {
+  justify-self: start;
+  margin: 0;
+}
+.footer__form {
+  display: grid;
+  grid-template-columns: 9ch auto;
+  gap: 1.375rem;
+  align-items: center;
+}
+.footer__form__email {
+  display: grid;
+  grid-template-columns: auto 3.375rem;
+}
+.footer__form label {
+  font-size: 0.275;
+  font-weight: 300;
+  text-align: center;
+}
+.footer__form input {
+  background: var(--color-primary);
+  outline: none;
+  padding: 1rem;
+  border: unset;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__form input::placeholder {
+  color: #fff;
+}
+.footer__form input:focus {
+  background: white;
+  color: #000;
+  text-transform: none;
+}
+.footer__form button {
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.footer__form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.footer__links {
+  justify-self: end;
+}
+.footer__links li {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid var(--color-primary);
+  margin: 40px 5px 40px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer__links li:hover {
+  background: var(--color-primary);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.copy--right {
+  text-transform: uppercase;
+}

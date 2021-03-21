@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  height: 554px;
+}
+.hero {
+  background-image: url(/src/images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero__container {
+  position: absolute;
+  right: 0;
+  margin: 200px;
+}
+.hero__container h2 {
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-size: 100px;
+  letter-spacing: -5px;
+  line-height: 120px;
+  font-weight: 700;
+}
+.hero__container p {
+  color: white;
+  width: 45ch;
+  padding-top: 35px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.contato__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contato_container span,
+.contato_form_container label,
+.contato_form_container input {
+  display: block;
+}
+.contato__row h3 {
+  margin-bottom: 1.875rem;
+  font-size: 1.5625rem;
+}
+.contato__row span {
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  gap: 0.625rem;
+  font-family: "Roboto";
+  font-weight: bolder;
+  line-height: 1.6875rem;
+}
+.contato--left-col h3:nth-of-type(2) {
+  margin-top: 3.75rem;
+}
+.contato--left-col,
+.contato--right-col {
+  padding: 4rem 0;
+}
+.contato_container,
+.contato_form_container {
+  width: 540px;
+}
+.contato_container {
+  padding-right: 7.125rem;
+  float: right;
+}
+.contato_form_container {
+  padding-left: 7.125rem;
+}
+
+.contato--right-col button {
+  float: right;
+}
+.contato_container i {
+  font-size: 24px;
+  color: var(--color-primary);
+}
+.contato--right-col {
+  background: #000;
+  color: #fff;
+}
+.contato_form_container input,
+.contato_form_container textarea {
+  resize: none;
+  width: 100%;
+  color: #fff;
+  background: unset;
+  border: unset;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1.857rem;
+  padding: 1rem;
+  font-size: 18px;
+}
+.contato_form_container input:focus {
+  outline: none;
+}
+.maps,
+.maps iframe {
+  height: 36.5rem;
+}
