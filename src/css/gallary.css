@@ -1,0 +1,35 @@
+.hero__gallary {
+  position: relative;
+  height: 554px;
+}
+.hero__gallary {
+  background-image: url(/src/images/Layer\ 17.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallary_container {
+  position: absolute;
+  right: 0;
+  margin: 200px;
+}
+.hero__copy h6 {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 18px;
+  color: var(--color-primary);
+  font-weight: 400;
+}
+.gallary_row {
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+.gallary_row {
+  padding: 45px;
+}
+.gallary_imagem img {
+  width: 700px;
+  margin-left: 250px;
+}

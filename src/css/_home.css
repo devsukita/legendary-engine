@@ -64,7 +64,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  margin: 0;
   padding: 3.275rem 1rem;
 }
 .numbers_container h3 {
@@ -89,7 +88,6 @@
   font-weight: 300;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  margin: 0;
 }
 .institutional__copy h4 {
   font-size: 1.5625rem;
@@ -134,7 +132,6 @@
   line-height: 1.4375rem;
   max-width: 55ch;
   text-transform: uppercase;
-  margin: 0;
 }
 .quote_class h2 {
   font-size: 3.5rem;
