@@ -1,0 +1,53 @@
+.hero__empre {
+  position: relative;
+  height: 554px;
+}
+.hero__empre {
+  background-image: url(/src/images/empresa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.empre__container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 45px;
+}
+.empresa_text {
+  width: 40ch;
+}
+.empresa_text h3 {
+  font-size: 25px;
+  line-height: 31px;
+  color: #333333;
+  font-weight: 700;
+}
+.empresa_text p {
+  padding-top: 25px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.empresa_imagem img {
+  width: 600px;
+  height: 727px;
+}
+.empres__logo {
+  height: 100%;
+  width: 100%;
+  background: var(--color-primary);
+}
+.empres__logo h3 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 31px;
+  color: #333333;
+  font-weight: 700;
+}
+.mini__logos {
+  padding: 45px 45px;
+}

@@ -1,0 +1,55 @@
+.hero__events {
+  position: relative;
+  height: 554px;
+}
+.hero__events {
+  background-image: url(/src/images/hero-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.events__container {
+  margin-top: 35px;
+  align-self: center;
+  justify-content: center;
+  border-bottom: 1px solid #aaaaaa;
+}
+.events__container img {
+  width: 188px;
+  height: 185px;
+  border-radius: 35px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 5px #666;
+}
+.events__container {
+  display: flex;
+}
+.events__col-1 {
+  padding-left: 25px;
+}
+.events__col-1 h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 18px;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+.events__col-1 p {
+  padding-top: 24px;
+}
+.events__hours {
+  font-size: 15px;
+  letter-spacing: 3px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 700;
+}
+.events__hours i {
+  font-size: 18px;
+  color: var(--color-primary);
+}
+.events__col-1 button {
+  float: right;
+}

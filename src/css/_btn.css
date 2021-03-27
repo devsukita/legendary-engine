@@ -14,7 +14,8 @@
 .btn:focus,
 .btn:active,
 .btn--institutional,
-.btn-msg {
+.btn-msg,
+.btn__events {
   border-color: var(--color-primary);
   background: var(--color-primary);
   color: #fff;
